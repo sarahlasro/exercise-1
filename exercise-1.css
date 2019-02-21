@@ -1,0 +1,38 @@
+body{
+    background-color: aquamarine;
+}
+
+.header{
+    background-color:hotpink;
+    width: 100%;
+}
+
+.fotoku{
+    width:200px;
+    height:200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    border-style:dashed;
+}
+  
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.kolom1{
+    border: 100px;
+    border-spacing: 5px;
+}
+
+.kolom1 tr td{
+    background: violet;
+}
